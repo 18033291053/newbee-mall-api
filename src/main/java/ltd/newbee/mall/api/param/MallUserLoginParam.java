@@ -20,7 +20,7 @@ import java.io.Serializable;
 @Data
 public class MallUserLoginParam implements Serializable {
 
-    @ApiModelProperty("登录的名")
+    @ApiModelProperty("登录名")
     @NotEmpty(message = "登录名不能为空")
     private String loginName;
 
